@@ -1,0 +1,90 @@
+{
+	"ImportPath": "github.com/mavenugo/test-docker-netplugin",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/Microsoft/go-winio",
+			"Rev": "f778f05015353be65d242f3fedc18695756153bb"
+		},
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.8.7-53-g446d1c1",
+			"Rev": "446d1c146faa8ed3f4218f056fcd165f6bcfda81"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-systemd/activation",
+			"Comment": "v4",
+			"Rev": "b4a58d95188dd092ae20072bac14cece0e67c388"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-systemd/util",
+			"Comment": "v4",
+			"Rev": "b4a58d95188dd092ae20072bac14cece0e67c388"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/plugingetter",
+			"Comment": "docs-v1.12.0-rc4-2016-07-15-2119-gbc2d809",
+			"Rev": "bc2d809709b8279fff85925e28b9d48f176e285c"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/plugins",
+			"Comment": "docs-v1.12.0-rc4-2016-07-15-2119-gbc2d809",
+			"Rev": "bc2d809709b8279fff85925e28b9d48f176e285c"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/plugins/transport",
+			"Comment": "docs-v1.12.0-rc4-2016-07-15-2119-gbc2d809",
+			"Rev": "bc2d809709b8279fff85925e28b9d48f176e285c"
+		},
+		{
+			"ImportPath": "github.com/docker/go-connections/sockets",
+			"Comment": "v0.2.0",
+			"Rev": "34b5052da6b11e27f5f2e357b38b571ddddd3928"
+		},
+		{
+			"ImportPath": "github.com/docker/go-connections/tlsconfig",
+			"Comment": "v0.2.0",
+			"Rev": "34b5052da6b11e27f5f2e357b38b571ddddd3928"
+		},
+		{
+			"ImportPath": "github.com/docker/go-plugins-helpers/network",
+			"Rev": "8f6a7e66062c5a7d19174e8ecfbe1befbb38b676"
+		},
+		{
+			"ImportPath": "github.com/docker/go-plugins-helpers/sdk",
+			"Rev": "8f6a7e66062c5a7d19174e8ecfbe1befbb38b676"
+		},
+		{
+			"ImportPath": "github.com/docker/libnetwork/discoverapi",
+			"Comment": "v0.8.0-dev.2-460-gfad68bd",
+			"Rev": "fad68bde678f88cb18e5e1d8627361fb791a372f"
+		},
+		{
+			"ImportPath": "github.com/docker/libnetwork/driverapi",
+			"Comment": "v0.8.0-dev.2-460-gfad68bd",
+			"Rev": "fad68bde678f88cb18e5e1d8627361fb791a372f"
+		},
+		{
+			"ImportPath": "github.com/docker/libnetwork/types",
+			"Comment": "v0.8.0-dev.2-460-gfad68bd",
+			"Rev": "fad68bde678f88cb18e5e1d8627361fb791a372f"
+		},
+		{
+			"ImportPath": "github.com/opencontainers/runc/libcontainer/user",
+			"Comment": "v0.0.7-38-g8e8d01d",
+			"Rev": "8e8d01d38d7b4fb0a35bf89b72bc3e18c98882d7"
+		},
+		{
+			"ImportPath": "golang.org/x/net/proxy",
+			"Rev": "024ed629fd292398cfd43c9678a5bf004f7defdc"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "5eaf0df67e70d6997a9fe0ed24383fa1b01638d3"
+		}
+	]
+}
