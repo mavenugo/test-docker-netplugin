@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	pluginUDSocket = "test-docker-netplugin"
+	pluginUDSocket = "plugin"
 )
 
 type TestDriver struct {

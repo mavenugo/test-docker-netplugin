@@ -8,7 +8,7 @@
            },
     "interface" : {
            "types": ["docker.networkdriver/1.0"],
-           "socket": "test-docker-netplugin.sock"
+           "socket": "plugin.sock"
     },
     "capabilities": ["CAP_SYS_ADMIN"]
 }
