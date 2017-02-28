@@ -52,7 +52,7 @@
 		},
 		{
 			"ImportPath": "github.com/docker/go-plugins-helpers/network",
-			"Rev": "8f6a7e66062c5a7d19174e8ecfbe1befbb38b676"
+			"Rev": "8af45ff6ad5b7608853de51133c33e6638b02134"
 		},
 		{
 			"ImportPath": "github.com/docker/go-plugins-helpers/sdk",

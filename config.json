@@ -1,5 +1,4 @@
 {
-    "manifestVersion": "v0",
     "description": "Test network plugin for Docker",
     "documentation": "https://docs.docker.com/engine/extend/plugins/",
     "entrypoint": ["/go/bin/test-docker-netplugin"],
@@ -10,5 +9,9 @@
            "types": ["docker.networkdriver/1.0"],
            "socket": "plugin.sock"
     },
-    "capabilities": ["CAP_SYS_ADMIN"]
+    "linux": {
+        "capabilities": [
+            "CAP_SYS_ADMIN"
+        ]
+    }
 }

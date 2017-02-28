@@ -13,7 +13,17 @@ type TestDriver struct {
 }
 
 func (t *TestDriver) GetCapabilities() (*network.CapabilitiesResponse, error) {
-	return &network.CapabilitiesResponse{Scope: "local"}, nil
+	return &network.CapabilitiesResponse{Scope: "global"}, nil
+}
+
+func (t *TestDriver) AllocateNetwork(r *network.AllocateNetworkRequest) (*network.AllocateNetworkResponse, error) {
+	logrus.Infof("Allocate Network %v", r.NetworkID)
+	return nil, nil
+}
+
+func (t *TestDriver) FreeNetwork(r *network.FreeNetworkRequest) error {
+	logrus.Infof("Free Network %v", r.NetworkID)
+	return nil
 }
 
 func (t *TestDriver) CreateNetwork(r *network.CreateNetworkRequest) error {
